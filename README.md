@@ -15,3 +15,9 @@ gulp
 ```
 
 (files are saved in the dev directory)
+
+## About this build
+
+This build uses the gulp=file-include package, to add a new translation attribute you must add this to the translations.json file. The key of this must then be included in the index.html file with the '@@' prefix. e.g: @@translation1.
+
+You can add as many new translations as you would like the build will automatically output a file for each entry with the suffix named after the version.
